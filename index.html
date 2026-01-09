@@ -102,7 +102,7 @@
             
             // 2. 你的 n8n 回调地址 (注意！！这里要填 n8n 的地址，不是 GitHub 的地址)
             // 解释：授权完后，Twitter 需要把数据送给 n8n 去存数据库，而不是送回这个静态网页
-            const REDIRECT_URI = 'http://localhost:5678/rest/oauth2-credential/callback ';
+            const REDIRECT_URI = 'http://localhost:5678/webhook/http://localhost:5678/rest/oauth2-credential/callback ';
             
             // ====================================================
 
